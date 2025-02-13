@@ -13,9 +13,9 @@ export function App() {
         <h1 className="p-2 text-4xl">brevityapp.me</h1>
         <nav className="flex justify-end">
           <ul className="flex justify-between gap-8">
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/newpost">Create Post</Link></li>
-            <li><Link to="/login">Login</Link></li>
+            <li className='text-blue-800'><Link to="/">Home</Link></li>
+            <li className='text-blue-800'><Link to="/newpost">Create Post</Link></li>
+            <li className='text-blue-800'><Link to="/login">Login</Link></li>
           </ul>
         </nav>
       </header>
